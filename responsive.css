@@ -1,10 +1,10 @@
 @media (max-width: 768px) {
     
     html {
-        font-size: 55%; /* Reduz um pouco a base do rem para ajustar textos globalmente */
+        font-size: 55%; 
     }
 
-    /* --- Cabeçalho (Header) --- */
+
     #headerContainer {
         padding: 1.5rem 2rem;
         position: relative;
@@ -22,7 +22,7 @@
         font-size: 1.6rem;
     }
 
-    /* Esconde a navegação padrão horizontal */
+
     .navList {
         display: none; 
         flex-direction: column;
@@ -44,10 +44,10 @@
     }
 
     .home {
-        border-bottom: 1px solid rgba(0, 0, 0, 0.05); /* Mantém o padrão no mobile */
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05); 
     }
 
-    /* Exibe o botão do menu hambúrguer */
+
     .btnResp {
         display: block;
     }
@@ -70,9 +70,8 @@
         height: 2.5rem;
     }
 
-    /* --- Hero (Banner Principal) --- */
     #heroBg {
-        height: 50vh; /* Aumenta a proporção da altura no mobile */
+        height: 50vh; 
     }
 
     .secondBgImg {
@@ -99,7 +98,7 @@
         padding: 1rem 2.5rem;
     }
 
-    /* --- Seção de Produtos (Vitrine) --- */
+
     #mainSection {
         min-height: auto;
         padding: 4rem 2rem;
@@ -111,7 +110,7 @@
     }
 
     .shoreClothing {
-        flex-direction: column; /* Alinha os produtos em uma coluna única */
+        flex-direction: column; 
         gap: 4rem;
         padding: 0;
     }
@@ -120,10 +119,10 @@
         width: 100%;
     }
 
-    /* Ajuste do tamanho das imagens sem sumir com elas */
+    
     .flexLi img {
-        width: 70vw;  /* Ocupa 70% da largura da tela do celular */
-        height: 45vh; /* Proporção ideal para manter o visual do produto */
+        width: 70vw; 
+        height: 45vh; 
     }
 
     .flexLi img:hover {
@@ -137,9 +136,8 @@
         max-width: 25ch;
     }
 
-    /* --- Seção Instagram --- */
     #instagramContainer {
-        flex-direction: column-reverse; /* Foto embaixo, texto e botão em cima */
+        flex-direction: column-reverse;
         padding: 4rem 2rem;
         gap: 2rem;
     }
@@ -155,11 +153,11 @@
     }
 
     .postImg {
-        width: 60vw; /* Imagem do post adaptada ao tamanho mobile */
+        width: 60vw;
         margin: 0;
     }
 
-    /* --- Rodapé --- */
+
     footer p {
         font-size: 1.4rem;
         padding: 0 2rem;
