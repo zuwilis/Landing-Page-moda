@@ -1,6 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Montserrat:wght@400;600;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500;700&display=swap');
 
+:root{
+    --corAreia: #f5eee1;
+    --corBtn: #e5ab65;
+    --corTittle: #3567aee0;
+    --colorPrice: #1C4336;
+}
+
 html{
     font-size: 62.5%;
     font-family: 'Montserrat', sans-serif;
@@ -9,11 +16,7 @@ html{
 body{
     margin: 0;
 }
-:root{
-    --corAreia: #f5eee1;
-    --corBtn: #e5ab65;
-    --corTittle: #3567aee0;
-}
+
 .headerIcons{
     display: flex;
     gap: 2rem;
@@ -91,7 +94,7 @@ p{
 }
 #heroBg{
     width: 100%;
-    height: 40vh;
+    height: 45vh;
     overflow: hidden;
     position: relative;
     ;
@@ -127,7 +130,7 @@ p{
     font-size: 1.8rem;
     background-color: #2C2C2C;
     border: none;
-    padding: 1.2rem 2rem;
+    padding: 1.3rem 3rem;
     border-radius: .8rem;
     color: #F5EBE1;
     font-weight: 500;
@@ -142,7 +145,7 @@ h3{
     color: rgba(0, 0, 0, 0.835);
     text-transform: uppercase;
     text-align: center;
-    font-size: 4rem;
+    font-size: 5.5rem;
     font-family: 'Playfair Display', serif;
 }
 #mainSection{
@@ -162,6 +165,7 @@ h3{
     flex-direction: column;
     text-align: center;
     align-items: center;
+    border: .5rem;
 }
 .flexPrice{
     margin-top: 1.3rem;
@@ -206,10 +210,10 @@ h4{
     margin: 2rem 0 0;
     text-align: center;
     font-size: 3.7rem;
-    font-weight: 500;
+    font-weight: 600;
 }
 #instagramContainer{
-    background-color: var(--corAreia);
+    background-color:rgb(255, 238, 218);
     min-height: 30vh;
     display: flex;
     align-items: center;
@@ -243,11 +247,17 @@ h4{
     color: white;
 }
 
+footer{
+    background-color: transparent;
+    margin: 0;
+    padding: 1.5rem;
+}
 footer p{
-    color: rgba(0, 0, 0, 0.628);
+    color: rgb(6, 6, 6);
     text-align: center;
     margin-top: 2rem;
     font-size: 1.8rem;
+    font-weight: 500;
 }
 .flexInfos{
     display: flex;
@@ -261,4 +271,28 @@ footer p{
 }
 .headerRespStoreIcon{
     display: none;
+}
+.navList a{
+    text-decoration: none;
+}
+.navList a:visited{
+    color: black;
+}
+.BTNverMais{
+    background-color: var(--colorPrice);
+    text-transform: uppercase;
+    width:fit-content;
+    margin: auto;
+    padding: 1.8rem 4rem;
+    border: none;
+    border-radius: 0.5rem;
+    transition: all .5s ease;
+    box-shadow: .5rem .5rem 1rem rgba(0, 0, 0, 0.561);
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+.BTNverMais:hover{
+    background-color: #000000d7 ;
 }
